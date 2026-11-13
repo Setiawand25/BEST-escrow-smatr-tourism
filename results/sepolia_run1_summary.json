@@ -1,0 +1,101 @@
+{
+ "label": "sepolia_run1",
+ "network": "sepolia",
+ "chainId": "11155111",
+ "mode": "push",
+ "bookings": 20,
+ "deploy": {
+  "token": "0xb1308c2d2146068f9B4F700E930965A775C1b580",
+  "escrow": "0x96c319DA6E4DF9a6754daB94581f500B61581f51",
+  "tokenDeployTx": "0x2dcc1f6c162cdc702c0d15b67581480bb8a9b2389416a6c241af8e5085dc1ba4",
+  "escrowDeployTx": "0xc24dfffe5828e383295a255d96984f6c6dc064519286b6f198439c0dd31ee0c8"
+ },
+ "totalTx": 78,
+ "failedTx": 2,
+ "successRate": 0.9743589743589743,
+ "guestFacing": {
+  "n": 38,
+  "medianS": 10.57,
+  "p95S": 15.87,
+  "p99S": 18.36
+ },
+ "guestFacingBlockBased": {
+  "medianS": 8.89,
+  "p95S": 10.11
+ },
+ "finality": {
+  "sampled": 5,
+  "medianS": 959.839
+ },
+ "byFunction": {
+  "fundGuest": {
+   "n": 5,
+   "success": 5,
+   "successRate": 1,
+   "latencyMedianS": 11.6,
+   "latencyP95S": 12.66,
+   "gasMedian": 204600
+  },
+  "mint": {
+   "n": 5,
+   "success": 5,
+   "successRate": 1,
+   "latencyMedianS": 11.67,
+   "latencyP95S": 13.18,
+   "gasMedian": 140512
+  },
+  "approve": {
+   "n": 5,
+   "success": 5,
+   "successRate": 1,
+   "latencyMedianS": 12.54,
+   "latencyP95S": 23.16,
+   "gasMedian": 128599
+  },
+  "createBooking": {
+   "n": 20,
+   "success": 20,
+   "successRate": 1,
+   "latencyMedianS": 11.88,
+   "latencyP95S": 15.87,
+   "gasMedian": 473445
+  },
+  "confirmPayment": {
+   "n": 20,
+   "success": 18,
+   "successRate": 0.9,
+   "latencyMedianS": 10.39,
+   "latencyP95S": 11.7,
+   "gasMedian": 67922
+  },
+  "cancel": {
+   "n": 5,
+   "success": 5,
+   "successRate": 1,
+   "latencyMedianS": 12.12,
+   "latencyP95S": 16.3,
+   "gasMedian": 29969
+  },
+  "refund": {
+   "n": 5,
+   "success": 5,
+   "successRate": 1,
+   "latencyMedianS": 12.24,
+   "latencyP95S": 19.65,
+   "gasMedian": 68657
+  },
+  "completeStay": {
+   "n": 13,
+   "success": 13,
+   "successRate": 1,
+   "latencyMedianS": 11.36,
+   "latencyP95S": 12.34,
+   "gasMedian": 121802
+  }
+ },
+ "explorer": {
+  "escrow": "https://sepolia.etherscan.io/address/0x96c319DA6E4DF9a6754daB94581f500B61581f51",
+  "token": "https://sepolia.etherscan.io/address/0xb1308c2d2146068f9B4F700E930965A775C1b580"
+ },
+ "escrowResidualAfterRun": "0"
+}

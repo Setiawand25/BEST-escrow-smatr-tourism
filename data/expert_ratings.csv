@@ -1,0 +1,37 @@
+expert,item,dimension,rating
+X1,E01,Completeness,5
+X1,E02,Completeness,4
+X1,E03,Interoperability,4
+X1,E04,Interoperability,4
+X1,E05,Security,4
+X1,E06,Security,4
+X1,E07,Scalability,5
+X1,E08,Scalability,4
+X1,E09,Applicability,4
+X1,E10,Applicability,5
+X1,E11,Regulatory fit,4
+X1,E12,Regulatory fit,4
+X2,E01,Completeness,4
+X2,E02,Completeness,5
+X2,E03,Interoperability,4
+X2,E04,Interoperability,4
+X2,E05,Security,3
+X2,E06,Security,4
+X2,E07,Scalability,3
+X2,E08,Scalability,4
+X2,E09,Applicability,4
+X2,E10,Applicability,4
+X2,E11,Regulatory fit,4
+X2,E12,Regulatory fit,4
+X3,E01,Completeness,4
+X3,E02,Completeness,4
+X3,E03,Interoperability,4
+X3,E04,Interoperability,3
+X3,E05,Security,4
+X3,E06,Security,3
+X3,E07,Scalability,3
+X3,E08,Scalability,4
+X3,E09,Applicability,3
+X3,E10,Applicability,4
+X3,E11,Regulatory fit,4
+X3,E12,Regulatory fit,3

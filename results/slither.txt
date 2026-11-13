@@ -1,0 +1,13 @@
+Multiple frameworks detected: solc, Solc-json. Using solc (highest priority). Use --compile-force-framework to override.
+'bin/solc --version' running
+'bin/solc @openzeppelin/=node_modules/@openzeppelin/ contracts/BookingEscrow.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/home/claude/stc/contracts' running
+
+Detector: timestamp
+BookingEscrow.completeStay(uint256) (contracts/BookingEscrow.sol#105-129) uses timestamp for comparisons
+	Dangerous comparisons:
+	- block.timestamp < b.checkOut (contracts/BookingEscrow.sol#108)
+BookingEscrow.cancel(uint256) (contracts/BookingEscrow.sol#141-149) uses timestamp for comparisons
+	Dangerous comparisons:
+	- b.state == State.Confirmed && block.timestamp >= b.checkIn (contracts/BookingEscrow.sol#145)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#block-timestamp
+contracts/BookingEscrow.sol analyzed (11 contracts with 102 detectors), 2 result(s) found

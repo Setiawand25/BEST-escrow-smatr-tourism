@@ -1,0 +1,191 @@
+{
+ "V_median_usd": 523.5022618962255,
+ "V_mean_usd": 670.0225271911016,
+ "nightly_usd": 295.974,
+ "lifecycle_gas": {
+  "push": 268689,
+  "push_newguest": 315368,
+  "accrue": 231918,
+  "accrue_newguest": 278597
+ },
+ "H1": {
+  "original_78_15_5_2": {
+   "non_gas_floor": 0.21000000000000002,
+   "breakeven_gwei_median_booking": {
+    "push": null,
+    "push_newguest": null,
+    "accrue": null,
+    "accrue_newguest": null
+   },
+   "at_gwei_pushnewguest": {
+    "0.5": {
+     "median": 0.21082079664463335,
+     "p90": 0.21203334811893879,
+     "share_below_legacy_low": 0.0
+    },
+    "1": {
+     "median": 0.21164159328926668,
+     "p90": 0.2140666962378776,
+     "share_below_legacy_low": 0.0
+    },
+    "10": {
+     "median": 0.2264159328926669,
+     "p90": 0.25066696237877634,
+     "share_below_legacy_low": 0.0
+    },
+    "50": {
+     "median": 0.29207966446333444,
+     "p90": 0.41333481189388166,
+     "share_below_legacy_low": 0.0
+    }
+   }
+  },
+  "revised_90_5_3_2": {
+   "non_gas_floor": 0.09,
+   "breakeven_gwei_median_booking": {
+    "push": 60.7744580266639,
+    "push_newguest": 51.77896410772906,
+    "accrue": 70.41035345564508,
+    "accrue_newguest": 58.61308037317809
+   },
+   "at_gwei_pushnewguest": {
+    "0.5": {
+     "median": 0.09082079664463336,
+     "p90": 0.09203334811893882,
+     "share_below_legacy_low": 1.0
+    },
+    "1": {
+     "median": 0.09164159328926669,
+     "p90": 0.09406669623787764,
+     "share_below_legacy_low": 1.0
+    },
+    "10": {
+     "median": 0.1064159328926669,
+     "p90": 0.13066696237877634,
+     "share_below_legacy_low": 0.994005
+    },
+    "50": {
+     "median": 0.17207966446333448,
+     "p90": 0.2933348118938817,
+     "share_below_legacy_low": 0.51891
+    }
+   }
+  }
+ },
+ "cr_gas_median_booking": {
+  "0.5": {
+   "push": 0.0008207966445905782,
+   "accrue": 0.0007250941211315077
+  },
+  "1": {
+   "push": 0.0016415932891811565,
+   "accrue": 0.0014501882422630155
+  },
+  "10": {
+   "push": 0.016415932891811567,
+   "accrue": 0.014501882422630155
+  },
+  "50": {
+   "push": 0.08207966445905783,
+   "accrue": 0.07250941211315078
+  }
+ },
+ "max_intermediary_share": {
+  "1": 0.16335840671081883,
+  "10": 0.14858406710818842,
+  "50": 0.08292033554094215
+ },
+ "tornado": {
+  "g_ref": 10.0,
+  "base": 0.10641593289181156,
+  "factors": [
+   [
+    "Settlement accrue vs push",
+    0.10450188242263016,
+    0.10641593289181156
+   ],
+   [
+    "Returning vs new guest",
+    0.10398613871023046,
+    0.10641593289181156
+   ],
+   [
+    "Ramp fee 0\u20131.5%",
+    0.09641593289181156,
+    0.11141593289181156
+   ],
+   [
+    "Stay length 1\u20133 nights",
+    0.09967852806890695,
+    0.11903558420672086
+   ],
+   [
+    "ETH price US$1,500\u20135,000",
+    0.09903629333494215,
+    0.12012097778314049
+   ],
+   [
+    "Gas price 1\u201350 gwei",
+    0.09164159328918116,
+    0.17207966445905784
+   ]
+  ]
+ },
+ "H3": {
+  "push": {
+   "marginal_gas": 9460,
+   "breakeven_gwei_median": 20.307708435177588,
+   "share_bookings_meeting": {
+    "1": 1.0,
+    "10": 0.83732,
+    "50": 0.10231
+   },
+   "ratio_median": {
+    "1": 0.0024621192568132695,
+    "10": 0.024621192568132694,
+    "50": 0.12310596284066347
+   }
+  },
+  "accrue": {
+   "marginal_gas": 2806.5113335618994,
+   "breakeven_gwei_median": 68.45186032188985,
+   "share_bookings_meeting": {
+    "1": 1.0,
+    "10": 0.998785,
+    "50": 0.66384
+   },
+   "ratio_median": {
+    "1": 0.0007304403381424357,
+    "10": 0.007304403381424357,
+    "50": 0.03652201690712178
+   }
+  }
+ },
+ "split_check": {
+  "n": 100000,
+  "remainder_violations": 0,
+  "naive_violations": 99012
+ },
+ "eip1559": {
+  "0.5": {
+   "per_block": 1.0,
+   "after_25_blocks_5min": 1.0,
+   "after_75_blocks_15min": 1.0
+  },
+  "0.7": {
+   "per_block": 1.05,
+   "after_25_blocks_5min": 3.3863549408993885,
+   "after_75_blocks_15min": 38.83268592375563
+  },
+  "0.9": {
+   "per_block": 1.1,
+   "after_25_blocks_5min": 10.834705943388395,
+   "after_75_blocks_15min": 1271.8953713950725
+  },
+  "0.98": {
+   "per_block": 1.12,
+   "after_25_blocks_5min": 17.00006440664272,
+   "after_75_blocks_15min": 4913.0558407707995
+  }
+ }
+}

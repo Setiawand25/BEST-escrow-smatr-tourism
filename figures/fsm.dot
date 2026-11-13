@@ -1,0 +1,16 @@
+digraph FSM {
+  rankdir=LR; bgcolor="white"; nodesep=0.45; ranksep=0.55;
+  node [shape=box, style="rounded,filled", fontname="Times-Bold", fontsize=13, fontcolor="white", width=1.55, height=0.55, penwidth=0];
+  edge [fontname="Times-Italic", fontsize=10.5, color="#52514e", fontcolor="#0b0b0b", arrowsize=0.7, penwidth=1.3];
+  Created [fillcolor="#1f5f7a"]; Pending [label="PendingPayment", fillcolor="#2a78d6"];
+  Confirmed [fillcolor="#1b8a5a"]; Completed [fillcolor="#12355b"];
+  Cancelled [fillcolor="#b84a3a"]; Refunded [fillcolor="#6b7280"];
+  Created -> Pending [label="createBooking()\n(atomic)"];
+  Pending -> Confirmed [label="confirmPayment()\n[guest; escrow funded]"];
+  Confirmed -> Completed [label="completeStay()\n[operator; t ≥ checkOut;\nrevenue split]"];
+  Pending -> Cancelled [label="cancel()\n[guest; unpaid]"];
+  Confirmed -> Cancelled [label="cancel()\n[guest; t < checkIn]"];
+  Cancelled -> Refunded [label="refund()\n[escrow > 0]"];
+  {rank=same; Pending; Cancelled}
+  {rank=same; Confirmed; Refunded}
+}

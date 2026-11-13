@@ -1,0 +1,74 @@
+[
+ [
+  "confirmPayment by non-guest",
+  true
+ ],
+ [
+  "completeStay before payment",
+  true
+ ],
+ [
+  "double confirmPayment",
+  true
+ ],
+ [
+  "completeStay by non-operator",
+  true
+ ],
+ [
+  "completeStay before check-out",
+  true
+ ],
+ [
+  "refund without cancellation",
+  true
+ ],
+ [
+  "cancel by non-guest",
+  true
+ ],
+ [
+  "cancel after check-in",
+  true
+ ],
+ [
+  "double completeStay",
+  true
+ ],
+ [
+  "cancel after completion",
+  true
+ ],
+ [
+  "double refund",
+  true
+ ],
+ [
+  "completeStay after cancellation",
+  true
+ ],
+ [
+  "refund of unpaid cancelled booking",
+  true
+ ],
+ [
+  "withdraw with zero balance",
+  true
+ ],
+ [
+  "deploy with shares >= 100%",
+  true
+ ],
+ [
+  "deploy with zero SDG-fund address",
+  true
+ ],
+ [
+  "createBooking with checkOut < checkIn",
+  true
+ ],
+ [
+  "escrow empty after all flows",
+  true
+ ]
+]

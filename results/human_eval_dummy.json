@@ -1,0 +1,86 @@
+{
+ "WARNING": "SIMULATED DUMMY DATA - FORMAT REFERENCE ONLY - NOT RESEARCH RESULTS",
+ "expert_panel": {
+  "n_experts": 3,
+  "n_items": 12,
+  "mean_rating": 3.92,
+  "S_CVI_Ave": 0.806,
+  "items_ICVI_below_0.78": 6,
+  "Aiken_V_min": 0.667,
+  "Aiken_V_mean": 0.729,
+  "Kendall_W": 0.213,
+  "by_dimension": [
+   {
+    "dimension": "Applicability",
+    "mean": 4.0,
+    "std": 0.63
+   },
+   {
+    "dimension": "Completeness",
+    "mean": 4.33,
+    "std": 0.52
+   },
+   {
+    "dimension": "Interoperability",
+    "mean": 3.83,
+    "std": 0.41
+   },
+   {
+    "dimension": "Regulatory fit",
+    "mean": 3.83,
+    "std": 0.41
+   },
+   {
+    "dimension": "Scalability",
+    "mean": 3.83,
+    "std": 0.75
+   },
+   {
+    "dimension": "Security",
+    "mean": 3.67,
+    "std": 0.52
+   }
+  ]
+ },
+ "survey": {
+  "guest": {
+   "n": 60,
+   "SUS_mean": 59.2,
+   "SUS_sd": 14.5,
+   "SUS_95CI": [
+    55.5,
+    63.0
+   ],
+   "grade": "OK",
+   "PU_mean": 3.34,
+   "PEOU_mean": 3.28,
+   "TR_mean": 3.32,
+   "BI_mean": 3.19
+  },
+  "staff": {
+   "n": 20,
+   "SUS_mean": 60.2,
+   "SUS_sd": 14.0,
+   "SUS_95CI": [
+    53.7,
+    66.8
+   ],
+   "grade": "OK",
+   "PU_mean": 3.34,
+   "PEOU_mean": 3.01,
+   "TR_mean": 3.22,
+   "BI_mean": 3.23
+  },
+  "welch_t_guest_vs_staff": {
+   "t": -0.27,
+   "p": 0.7855
+  },
+  "cronbach_alpha": {
+   "PU": 0.698,
+   "PEOU": 0.756,
+   "TR": 0.667,
+   "BI": 0.698,
+   "SUS": 0.882
+  }
+ }
+}

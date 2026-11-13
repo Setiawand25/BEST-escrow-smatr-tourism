@@ -1,0 +1,116 @@
+[
+ {
+  "mode": "push",
+  "N": 400,
+  "deployGas": 1454313,
+  "approveGas": 46679,
+  "checked": 348,
+  "violations": 0,
+  "escrowResidual": "0",
+  "stats": {
+   "create": {
+    "n": 400,
+    "mean": 120261.97,
+    "min": 120229,
+    "max": 120265,
+    "median": 120265
+   },
+   "confirm": {
+    "n": 400,
+    "mean": 69026.32,
+    "min": 69022,
+    "max": 69034,
+    "median": 69022
+   },
+   "complete": {
+    "n": 338,
+    "mean": 79406.29585798817,
+    "min": 79402,
+    "max": 79414,
+    "median": 79402
+   },
+   "completeFirst": {
+    "n": 10,
+    "mean": 101632,
+    "min": 96502,
+    "max": 147802,
+    "median": 96502
+   },
+   "cancel": {
+    "n": 52,
+    "mean": 28774.30769230769,
+    "min": 28769,
+    "max": 28781,
+    "median": 28769
+   },
+   "refund": {
+    "n": 52,
+    "mean": 44341.42307692308,
+    "min": 44337,
+    "max": 44347,
+    "median": 44337
+   },
+   "withdraw": null
+  }
+ },
+ {
+  "mode": "accrue",
+  "N": 400,
+  "deployGas": 1454325,
+  "approveGas": 46679,
+  "checked": 339,
+  "violations": 0,
+  "escrowResidual": "0",
+  "stats": {
+   "create": {
+    "n": 400,
+    "mean": 120261.16,
+    "min": 120229,
+    "max": 120265,
+    "median": 120265
+   },
+   "confirm": {
+    "n": 400,
+    "mean": 51969.07,
+    "min": 51922,
+    "max": 69022,
+    "median": 51922
+   },
+   "complete": {
+    "n": 329,
+    "mean": 59735.48632218845,
+    "min": 59731,
+    "max": 59743,
+    "median": 59731
+   },
+   "completeFirst": {
+    "n": 10,
+    "mean": 81961,
+    "min": 76831,
+    "max": 128131,
+    "median": 76831
+   },
+   "cancel": {
+    "n": 61,
+    "mean": 28773.131147540982,
+    "min": 28769,
+    "max": 28781,
+    "median": 28769
+   },
+   "refund": {
+    "n": 61,
+    "mean": 47825.13114754098,
+    "min": 47821,
+    "max": 47833,
+    "median": 47821
+   },
+   "withdraw": {
+    "n": 3,
+    "mean": 59317,
+    "min": 59317,
+    "max": 59317,
+    "median": 59317
+   }
+  }
+ }
+]

@@ -1,0 +1,13 @@
+item,dimension,statement
+E01,Completeness,"The five layers cover all functions needed for booking, payment and settlement."
+E02,Completeness,The booking state machine covers all realistic reservation outcomes.
+E03,Interoperability,The architecture can integrate with existing OTA and PMS systems.
+E04,Interoperability,Fiat and stablecoin payment routing is technically feasible.
+E05,Security,The threat model covers the main risks of handling guest funds.
+E06,Security,The implemented mitigations are adequate for a pilot.
+E07,Scalability,The capacity margin is sufficient for Lagoi's demand.
+E08,Scalability,The cost per booking is acceptable to hotel operators.
+E09,Applicability,The revenue-sharing rule is acceptable to stakeholders.
+E10,Applicability,The SDG community fund is meaningful for the destination.
+E11,Regulatory fit,The design respects Indonesian currency and crypto-asset rules.
+E12,Regulatory fit,The design respects personal-data-protection requirements.

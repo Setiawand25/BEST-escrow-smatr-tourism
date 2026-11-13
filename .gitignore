@@ -1,0 +1,26 @@
+﻿# Dependencies
+node_modules/
+
+# Hardhat cache & artifacts (bisa di-generate ulang)
+cache/
+artifacts/
+
+# File environment & private key — JANGAN pernah di-commit
+.env
+.env.*
+*.key
+
+# File ephemeral wallets (berisi private key tamu uji)
+results/*_ephemeral_wallets.json
+
+# Python cache
+__pycache__/
+*.pyc
+sim/__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log

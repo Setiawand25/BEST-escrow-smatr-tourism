@@ -1,0 +1,90 @@
+{
+ "label": "dryrun_run1",
+ "network": "localdry",
+ "chainId": "11155111",
+ "mode": "push",
+ "bookings": 20,
+ "deploy": {
+  "token": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "escrow": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "tokenDeployTx": "0x67fb357d7f69c9f927a6cbd0e7b8722b39defe38b98e49621d5a26e11df92882",
+  "escrowDeployTx": "0x0be14afe1c52869780d8b3210f429859758c5b9460ce56d0950379eb9ee1f694"
+ },
+ "totalTx": 93,
+ "failedTx": 0,
+ "successRate": 1,
+ "guestFacing": {
+  "n": 40,
+  "medianS": 11.95,
+  "p95S": 12.02,
+  "p99S": 12.03
+ },
+ "guestFacingBlockBased": {
+  "medianS": 11.04,
+  "p95S": 11.07
+ },
+ "finality": {
+  "sampled": 0,
+  "medianS": null
+ },
+ "byFunction": {
+  "mint": {
+   "n": 15,
+   "success": 15,
+   "successRate": 1,
+   "latencyMedianS": 12.01,
+   "latencyP95S": 12.04,
+   "gasMedian": 51292
+  },
+  "approve": {
+   "n": 15,
+   "success": 15,
+   "successRate": 1,
+   "latencyMedianS": 12.01,
+   "latencyP95S": 12.03,
+   "gasMedian": 46679
+  },
+  "createBooking": {
+   "n": 20,
+   "success": 20,
+   "successRate": 1,
+   "latencyMedianS": 12.01,
+   "latencyP95S": 12.03,
+   "gasMedian": 120265
+  },
+  "confirmPayment": {
+   "n": 20,
+   "success": 20,
+   "successRate": 1,
+   "latencyMedianS": 10.43,
+   "latencyP95S": 11.05,
+   "gasMedian": 51922
+  },
+  "cancel": {
+   "n": 3,
+   "success": 3,
+   "successRate": 1,
+   "latencyMedianS": 11.96,
+   "latencyP95S": 12.02,
+   "gasMedian": 28769
+  },
+  "refund": {
+   "n": 3,
+   "success": 3,
+   "successRate": 1,
+   "latencyMedianS": 12,
+   "latencyP95S": 12.01,
+   "gasMedian": 47821
+  },
+  "completeStay": {
+   "n": 17,
+   "success": 17,
+   "successRate": 1,
+   "latencyMedianS": 12,
+   "latencyP95S": 12.05,
+   "gasMedian": 84202
+  }
+ },
+ "explorer": null,
+ "escrowResidualAfterRun": "0"
+}

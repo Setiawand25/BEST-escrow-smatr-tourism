@@ -1,0 +1,92 @@
+network localdry chainId 11155111; guests 15; bookings 48
+deployed {
+  token: '0x7a2088a1bFc9d81c55368AE168C2C02570cB814F',
+  escrow: '0x09635F643e140090A9A8Dcd712eD6285858ceBef',
+  tokenDeployTx: '0xffcc4f763f12f894e8248cc7da9152a1846ad11b94a4ffc2dd14660ef90763be',
+  escrowDeployTx: '0x05fbc3b68f061272b0b923f45b61e6d2502f3998dd590977762c253c4cd3ccb7'
+}
+{
+ "label": "dryrun_local_sepolia_like",
+ "network": "localdry",
+ "chainId": "11155111",
+ "mode": "push",
+ "bookings": 48,
+ "deploy": {
+  "token": "0x7a2088a1bFc9d81c55368AE168C2C02570cB814F",
+  "escrow": "0x09635F643e140090A9A8Dcd712eD6285858ceBef",
+  "tokenDeployTx": "0xffcc4f763f12f894e8248cc7da9152a1846ad11b94a4ffc2dd14660ef90763be",
+  "escrowDeployTx": "0x05fbc3b68f061272b0b923f45b61e6d2502f3998dd590977762c253c4cd3ccb7"
+ },
+ "totalTx": 182,
+ "failedTx": 0,
+ "successRate": 1,
+ "guestFacing": {
+  "n": 96,
+  "medianS": 11.91,
+  "p95S": 12.01,
+  "p99S": 12.03
+ },
+ "finality": {
+  "sampled": 0,
+  "medianS": null
+ },
+ "byFunction": {
+  "mint": {
+   "n": 15,
+   "success": 15,
+   "successRate": 1,
+   "latencyMedianS": 11.99,
+   "latencyP95S": 12.03,
+   "gasMedian": 51292
+  },
+  "approve": {
+   "n": 15,
+   "success": 15,
+   "successRate": 1,
+   "latencyMedianS": 12.01,
+   "latencyP95S": 12.02,
+   "gasMedian": 46667
+  },
+  "createBooking": {
+   "n": 48,
+   "success": 48,
+   "successRate": 1,
+   "latencyMedianS": 11.98,
+   "latencyP95S": 12.02,
+   "gasMedian": 120265
+  },
+  "confirmPayment": {
+   "n": 48,
+   "success": 48,
+   "successRate": 1,
+   "latencyMedianS": 4.7,
+   "latencyP95S": 7.82,
+   "gasMedian": 51922
+  },
+  "cancel": {
+   "n": 8,
+   "success": 8,
+   "successRate": 1,
+   "latencyMedianS": 12,
+   "latencyP95S": 12.03,
+   "gasMedian": 28769
+  },
+  "refund": {
+   "n": 8,
+   "success": 8,
+   "successRate": 1,
+   "latencyMedianS": 12,
+   "latencyP95S": 12.01,
+   "gasMedian": 47821
+  },
+  "completeStay": {
+   "n": 40,
+   "success": 40,
+   "successRate": 1,
+   "latencyMedianS": 12,
+   "latencyP95S": 12.02,
+   "gasMedian": 84202
+  }
+ },
+ "escrowResidualAfterRun": "0"
+}

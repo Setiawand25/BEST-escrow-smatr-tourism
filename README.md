@@ -32,4 +32,4 @@ SKIP_FINALITY=1 LEAD_S=300 npx hardhat run scripts/sepolia_campaign.js --network
 python3 sim/human_eval_dummy.py
 ```
 results/dryrun_* and data/* are SIMULATED reference outputs, not research results.
-test
+test  

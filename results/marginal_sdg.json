@@ -1,0 +1,12 @@
+{
+ "push": {
+  "withSdg": 79402,
+  "withoutSdg": 69942,
+  "marginal": 9460
+ },
+ "accrue": {
+  "withSdg": 59731,
+  "withoutSdg": 56931,
+  "marginal": 2800
+ }
+}
